@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //ejercicio 6
+            console.log(typeof 1);
+            console.log(typeof "hola");
+            console.log(typeof a);
+            console.log(typeof true);
+
+        //ejercicio 7    
+            let num = 5;
+            console.log(num + num);
+
+        //ejercicio 8    
+            let pal = "hola "
+            let lap = "como estas"
+            let sum = pal + lap;
+            console.log(sum);
+
+        //ejercicio 9
+            let numero = 5;
+            let cadena = String(numero);
+            console.log(typeof numero, typeof cadena);
+
+        //ejercicio 10
+            let decimal = 5.319528;
+            let tostring = decimal.toFixed(3);
+            console.log(typeof tostring, tostring);
+            
+        //ejercicio 11
+            let cadena1 = "hoy es miercoles ";
+            let cadena2 = "estamos repasando";
+            console.log(cadena1.length + cadena2.length);
+
+        //ejercicio 12
+            let resulado = cadena1.length + cadena2.length;
+            console.log(`${cadena1}${cadena2}. La suma de los caracteres es: ${resulado}`);
+        
+        //ejercicio 13
+            let dato = 10 + "1";
+            let dato2 = 10 - "1";
+            console.log(typeof dato, dato);
+            console.log(typeof dato2, dato2);
+
+        //ejercicio 14
+        let string = "Hey Tú, cómo te llamas. ¡Hey, estoy hablando contigo!";
+        console.log(string.replace("contigo", "yo"));
+
+        //ejercicio 15
+        let number = 101;
+        if(number > 100){
+            console.log("el numero insertado es > 100")
+        }
+        else{
+            console.log("el numero insertado es < 100")
+        }
+
+        //ejercicio 16
+        let n = -83;
+        if(n > 0){
+            console.log("el numero es positivo")
+        }
+        else{
+            console.log("el numero es negativo")
+        }
+
+        //ejercicio 17
+        let n1 = 50;
+        let n2 = 10;
+        if ((n1 + n2) > 50){
+            console.log((n1 + n2) * 2)
+        }
+        else {
+            console.log((n1 + n2) * 3)
+        }
+
+        //ejercicio 18
+        let numb = 83;
+        if(numb % 3 == 0){
+            console.log("si que es multiplo de 3")
+        }
+        else if (numb % 8 == 0) {
+            console.log("el numero es multiplo de 8")
+        } else {
+            console.log("ERROR")
+        }
+
+        //ejercicio 19
+        let buenTiempo = true
+        let trabajo = false
+        if(trabajo == true){
+            console.log("no puedo ir a la playa tengo trabajo")
+        }
+        else if (trabajo == true && buenTiempo == false) {
+           console.log("no puedo ir porque trabajo")
+        }
+        else if (trabajo == false && buenTiempo == false){
+            console.log("no puedo ir por mal tiempo")
+        }
+        else {
+           console.log("voy a la playa")
+        }
+
+        
+
+    </script>
+</body>
+</html>
